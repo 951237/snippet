@@ -15,3 +15,4 @@ ax[1].set_title('Temp')  # 2번 그래프 제목
 ax[2].set_title('rainFall')  # 3번 그래프 제목
 plt.suptitle('Main')  # 그래프 전체 제목
 plt.show()
+
