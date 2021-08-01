@@ -20,3 +20,4 @@ plt.figure(figsize=[10, 5])
 order_list = df['bank'].value_counts().index.tolist()
 # display 10 order=order_list[0:10]
 sns.countplot(data=df, x='bank', order=order_list)
+
