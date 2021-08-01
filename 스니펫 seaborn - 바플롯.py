@@ -20,3 +20,4 @@ plt.show()
 plt.figure(figsize=(12, 8))
 sns.barplot(y='학년반', x='조회', data=groupby_sum)
 plt.show()
+
